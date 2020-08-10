@@ -1,4 +1,7 @@
+
+#CREATES MODULES WHICH HOLDS ALL YOUR FUNCTIONS
 defmodule MyModule do
+#CREATES FUNCTIONS WHICH STARTS WITH def
     def main do
     #INPUTS AND OUTPUTS
         #  name=IO.gets("what is your name? ") |> String.trim
@@ -7,16 +10,16 @@ defmodule MyModule do
     end
 
     def data_stuff do
-    #DATA TYPES
+    #*******DATA TYPES********
     #     my_int = 123
     # IO.puts "Integer #{is_integer(my_int)}"
     # my_float = 1.1234
     # IO.puts "Float #{is_float(my_float)}"
 
-    #STRINGS
+    #*****STRINGS
     my_str = "my sentence "
 
-    #CONCANTENATE STRINGS
+    #*****CONCANTENATE STRINGS
     longer_string = my_str <> "" <> "is long"
     # IO.puts "Length: #{String.length(longer_string)}"
     # IO.puts "Index: #{String.at(my_str, 4)}"
@@ -29,7 +32,7 @@ defmodule MyModule do
     # IO.puts String.reverse(longer_string)
     # IO.puts String.capitalize(longer_string)
 
-    #MATH
+    #*********MATH****
     # IO.puts "5-4 =  #{5-4}"
     # IO.puts "5+4 = #{5+4}"
     # IO.puts "5/4 = #{5/4}"
@@ -38,7 +41,7 @@ defmodule MyModule do
     # IO.puts "5rem4 =  #{rem(5,4)}"
     # 4*10 |> IO.puts
 
-    #COMPARISON
+    #*****COMPARISON******
     # IO.puts "4 == 4.0: #{4 == 4.0}"  #compares the values not data type hence true
     # IO.puts "4 === 4.0: #{4 === 4.0}"  #compares data type hence false because one is int and other is float
     # IO.puts "4 != 4.0: #{4 != 4.0}"
@@ -49,7 +52,7 @@ defmodule MyModule do
     # IO.puts "5 < 4 : #{5 < 4}"
     # IO.puts "5 <= 4 : #{5 <= 4}"
 
-    #LOGICAL OPERATORS
+    #*****LOGICAL OPERATORS*****
     age = 16
     IO.puts "Vote and Drive: #{(age>=16) and (age>=18)}"   #check if both are true
     IO.puts "Vote or Drive: #{(age>=16) or (age>=18)}"   #check if one is true
